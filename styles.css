@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nata Sans", sans-serif
+
+}
+
+
+.header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+
+img.logo {
+    width: 70px;
+    height: 45px;
+    border-radius: 200%;
+    box-shadow: 0 1px 5px 0 black;
+    cursor: pointer;
+}
+
+
+h1.title {
+    font-size: 2rem;
+}
+
+
+.teamProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    background-color: darkgray;
+    width: 100%;
+    height: 90vh;
+    padding: 10px;
+}
+
+
+/* profile 1 */
+.profile {
+    background-color: antiquewhite;
+    border: 3px solid black;
+    width: 15%;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.profile:hover {
+    background-color:lightslategray; 
+    transform: translateY(-15px);
+    box-shadow: 5px 5px black;
+}
+
+
+/* example lang yan */
+img {
+    width: 120px;
+    width: 120px;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+
+h2 {
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+p {
+    padding-top: 15px;
+}
+
+
+
+
+/* Media Query */
+
+
+/* Desktops/Laptop */
+@media screen and (max-width: 1025px) and (max-width: 1280px) {
+    
+
+    h1.title {
+        font-size: 1.8rem;
+    }
+
+}
+
+
+
+/* Tablet */
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+    
+
+    h1.title {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+/* Mobile */
+@media screen and (max-width: 320px) and (max-width: 480px) {
+    
+
+    h1.title {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
